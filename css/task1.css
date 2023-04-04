@@ -1,0 +1,126 @@
+.task1 {
+  background-image: url('../img/main__backimg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 775px;
+}
+
+
+/* banner__top */
+
+.banner__top {
+  background-color: var(--red);
+  color: var(--white);
+  padding-left: 30px;
+  padding-top: 34px;
+  padding-bottom: 27px;
+}
+
+.banner__top__left {
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 0;
+}
+
+.banner__top__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 0;
+}
+
+.banner__top__right {
+  font-family: 'Gilroy-Extrabold', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* banner__bottom */
+
+.banner__bottom {
+  padding-top: 27px;
+}
+
+.banner__bottom__left__top__left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  letter-spacing: 0.1em;
+  padding-right: 5px;
+  margin-bottom: 37px;
+
+}
+
+.banner__bottom__left__top__center {
+  font-family: 'Roboto-Black', sans-serif;
+  font-weight: 900;
+
+  font-size: 26px;
+  line-height: 30px;
+  color: var(--red);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 37px;
+  flex-wrap: nowrap;
+}
+
+.banner__bottom__left__top__center span {
+  font-size: 42px;
+  line-height: 49.22px;
+  display: flex;
+  align-items: flex-end;
+  text-align: end;
+
+}
+
+.banner__bottom__left__top__right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.banner__bottom__left__bottom {
+  font-family: 'Gilroy-Medium', serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: var(--gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  letter-spacing: -0.01em;
+  margin-bottom: 17px;
+}
+
+.banner__bottom__left__bottom svg {
+  margin-right: 10px;
+}
+
+.banner__bottom__right {
+  font-family: 'MPLUS1p-Bold', serif;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 42px;
+  color: var(--red);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 33px;
+  letter-spacing: -0.05em;
+}

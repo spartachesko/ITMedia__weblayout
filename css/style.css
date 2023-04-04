@@ -1,0 +1,82 @@
+@import url("../fonts/stylesheet.css");
+@import url("task1.css");
+
+
+
+:root {
+  --red: #D23B60;
+  --white: #FFFFFF;
+  --gray: #999999;
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+  outline: 1px solid pink;
+}
+
+
+body {
+  margin: 0;
+  background-color: var(--white);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
+
+button {
+  border: none;
+  padding: 0;
+  border-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 20px;
+  padding: 20px 60px;
+  font-family: 'Roboto-Bold', san-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.fz-hack {
+  font-size: 0;
+}
+
+

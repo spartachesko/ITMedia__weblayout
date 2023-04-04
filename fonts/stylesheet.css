@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Black.woff2') format('woff2'),
+        url('Gilroy-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Gilroy-Extrabold';
+    src: url('Gilroy-Extrabold.woff2') format('woff2'),
+        url('Gilroy-Extrabold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MPLUS1p-Bold';
+    src: url('MPLUS1p-Bold.ttf') format('truetype');;
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('Roboto-Black.ttf') format('truetype');;
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('Gilroy-Medium.woff2') format('woff2'),
+      url('Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
