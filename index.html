@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/18.8 bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -60,24 +61,44 @@
   <section class="task2">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
-          <h3 class="title">КАЛЬКУЛЯТОР СТОИМОСТИ</h3>
+        <div class="col-lg-12 title">
+          <h3 class="title__content"">КАЛЬКУЛЯТОР СТОИМОСТИ</h3>
         </div>
       </div>
-      <div class="row">
-
+      <div class=" row">
+            <div class="col-lg-6 calc__type__item">
+              <span class="calc__type__item__name">Тип бытовки</span>
+              <div class="calc__type__item__choice">
+                <select name="" id="choices" class="choices1">
+                  <option value="">Тип бытовки</option>
+                  <option>Тип 1</option>
+                  <option>Тип 2</option>
+                  <option>Тип 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6 calc__dist__item">
+              <span class="calc__dist__item__name">Расстояние от КАД</span>
+              <div class="calc__dist__item__choice">
+                <select name="" id="choices" class="choices2">
+                  <option value="">Расстояние от КАД</option>
+                  <option value="5">5 км</option>
+                  <option value="10">10 км</option>
+                  <option value="15">15 км</option>
+                </select>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+        </div>
+        <div class="row">
+        </div>
+        <div class="row">
+        </div>
       </div>
-      <div class="row">
-
-      </div>
-      <div class="row">
-
-      </div>
-      <div class="row">
-
-      </div>
-    </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js" defer></script>
+  <script src="/js/select.js" defer></script>
 </body>
 
 </html>

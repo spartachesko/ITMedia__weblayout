@@ -8,7 +8,9 @@
 :root {
   --red: #D23B60;
   --white: #FFFFFF;
+  --hard-grey: #696969;
   --gray: #999999;
+  --hard-blue: #2C4B68;
 }
 
 * {

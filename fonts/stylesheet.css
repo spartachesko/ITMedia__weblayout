@@ -39,6 +39,30 @@
 }
 
 @font-face {
+    font-family: 'Exo2-Medium';
+    src: url('Exo2-Medium.ttf') format('truetype');;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-SemiBold';
+    src: url('Exo2-SemiBold.ttf') format('truetype');;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Medium';
+    src: url('OpenSans-Medium.ttf') format('truetype');;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('OpenSans-SemiBold.ttf') format('truetype');;
+    font-style: normal;
+}
+
+@font-face {
   font-family: 'Gilroy-Medium';
   src: url('Gilroy-Medium.woff2') format('woff2'),
       url('Gilroy-Medium.woff') format('woff');
