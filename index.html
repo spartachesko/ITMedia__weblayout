@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/18.8 bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="/js/range.js" defer></script>
+  
   <title>Верстка ITMedia</title>
 </head>
 
@@ -90,8 +96,24 @@
             </div>
         </div>
         <div class="row">
+          <div class="col-lg-12 calc__period__item">
+            <p>
+              <label for="amount" class="calc__period__item__name">Срок аренды, месяцев</label>
+              <input type="text" id="amount" readonly class="calc__period__item__range">
+            </p>
+            <div id="slider-range-max" class="myRange">
+            </div>
+          </div>
         </div>
         <div class="row">
+          <div class="col-lg-12 calc__period__item">
+            <p>
+              <label for="amount2" class="calc__period__item__name">Кол-во бытовок, шт</label>
+              <input type="text" id="amount2" readonly class="calc__period__item__range">
+            </p>
+            <div id="slider-range-max2" class="myRange">
+            </div>
+          </div>
         </div>
         <div class="row">
         </div>
