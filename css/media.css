@@ -1,4 +1,6 @@
 @media (max-width:992px) {
+
+  /* task1 */
   .banner__top__left {
     margin-bottom: 15px;
   }
@@ -24,9 +26,10 @@
     justify-content: center;
   }
 
-
   .banner__img {
     display: none;
   }
+
+  
 
 }
