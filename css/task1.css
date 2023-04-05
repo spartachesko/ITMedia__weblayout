@@ -5,6 +5,8 @@
   background-position: center;
   max-width: 775px;
   position: relative;
+  margin-bottom: 50px;
+  display: none;
 }
 
 
