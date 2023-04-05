@@ -1,0 +1,32 @@
+@media (max-width:992px) {
+  .banner__top__left {
+    margin-bottom: 15px;
+  }
+
+  .banner__top__center {
+    margin-bottom: 15px;
+  }
+
+  .banner__bottom__left__top__left {
+    justify-content: center;
+  }
+
+  .banner__bottom__left__top__center {
+
+    justify-content: center;
+  }
+
+  .banner__bottom__left__top__right {
+    justify-content: center;
+  }
+
+  .banner__bottom__right {
+    justify-content: center;
+  }
+
+
+  .banner__img {
+    display: none;
+  }
+
+}
