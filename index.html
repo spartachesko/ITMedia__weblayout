@@ -34,7 +34,7 @@
             <form>
               <div class="mb-3">
                 <label for="inputName" class="form-label">Ваше имя</label>
-                <input type="email" placeholder="Введите ваше имя*" class="form-control" id="inputName"  required>
+                <input type="text" placeholder="Введите ваше имя*" class="form-control" id="inputName"  required>
               </div>
               <div class="mb-3">
                 <label for="inputPhone" class="form-label">Ваш телефон</label>
@@ -42,23 +42,23 @@
               </div>
               <div class="mb-3">
                 <label for="inputType" class="form-label">Тип бытовки</label>
-                <input type="tel" class="form-control" id="inputType" value="1" readonly>
+                <input type="tel" class="form-control" id="inputType" value="" readonly>
               </div>
               <div class="mb-3">
                 <label for="inputDist" class="form-label">Расстояние от КАД</label>
-                <input type="tel" class="form-control" id="inputDist" value="2" readonly>
+                <input type="tel" class="form-control" id="inputDist" value="" readonly>
               </div>
               <div class="mb-3">
                 <label for="inputRent" class="form-label">Срок аренды</label>
-                <input type="tel" class="form-control" id="inputRent" value="3" readonly>
+                <input type="tel" class="form-control" id="inputRent" value="" readonly>
               </div>
               <div class="mb-3">
                 <label for="inputQty" class="form-label">Количество бытовок</label>
-                <input type="tel" class="form-control" id="inputQty" value="4" readonly>
+                <input type="tel" class="form-control" id="inputQty" value="" readonly>
               </div>
 
               <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                 <label class="form-check-label" for="exampleCheck1">Я согласен на обработку персональных данных</label>
               </div>
               <button type="submit" class="btn btn-primary">Отправить</button>
@@ -72,8 +72,8 @@
     <div class="banner__top">
       <div class="container">
         <div class="row ">
-          <div class="col-lg-2 banner__top__left"> УЗИ </div>
-          <div class="col-lg-1 banner__top__center">
+          <div class="col-lg-2 col-md-2 banner__top__left"> УЗИ </div>
+          <div class="col-lg-1 col-md-1 banner__top__center">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 16V8H24V16H0Z" fill="white" />
               <path d="M8 0H16V24H8V0Z" fill="white" />
@@ -125,10 +125,10 @@
               <span class="calc__type__item__name">Тип бытовки</span>
               <div class="calc__type__item__choice">
                 <select name="" id="choices" class="choices1">
-                  <option value="">Тип бытовки</option>
-                  <option>Тип 1</option>
-                  <option>Тип 2</option>
-                  <option>Тип 3</option>
+                  <!-- <option value="">Тип бытовки</option> -->
+                  <option value="Тип 1">Тип 1</option>
+                  <option value="Тип 2">Тип 2</option>
+                  <option value="Тип 3">Тип 3</option>
                 </select>
               </div>
             </div>
@@ -136,10 +136,10 @@
               <span class="calc__dist__item__name">Расстояние от КАД</span>
               <div class="calc__dist__item__choice">
                 <select name="" id="choices" class="choices2">
-                  <option value="">Расстояние от КАД</option>
-                  <option value="5">5 км</option>
-                  <option value="10">10 км</option>
-                  <option value="15">15 км</option>
+                  <!-- <option value="">Расстояние от КАД</option> -->
+                  <option value="5 км">5 км</option>
+                  <option value="10 км">10 км</option>
+                  <option value="15 км">15 км</option>
                 </select>
               </div>
             </div>
@@ -167,7 +167,7 @@
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 calc__submit">
             <button type="button" class="btn__confirm" data-bs-toggle="modal"
-              data-bs-target="#staticBackdrop">ЗАКАЗАТЬ</button>
+              data-bs-target="#staticBackdrop" id="openModal">ЗАКАЗАТЬ</button>
           </div>
         </div>
       </div>
@@ -177,6 +177,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="/js/select.js" defer></script>
+  <script src="/js/main.js" defer></script>
 </body>
 
 </html>

@@ -16,7 +16,7 @@ $(function () {
     range: "max",
     min: 1,
     max: 22,
-    value: 16,
+    value: 12,
     slide: function (event, ui) {
       $("#amount2").val(ui.value);
     }
