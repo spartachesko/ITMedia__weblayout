@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,14 +11,63 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
   <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="css/18.8 bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="/js/range.js" defer></script>
-  
   <title>Верстка ITMedia</title>
 </head>
 
 <body>
+  <section class="task3">
+    <!-- Модальное окно -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Заказать расчет</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+          </div>
+          <div class="modal-body"> 
+            <form>
+              <div class="mb-3">
+                <label for="inputName" class="form-label">Ваше имя</label>
+                <input type="email" placeholder="Введите ваше имя*" class="form-control" id="inputName"  required>
+              </div>
+              <div class="mb-3">
+                <label for="inputPhone" class="form-label">Ваш телефон</label>
+                <input type="tel" placeholder="Введите ваш телефон*" class="form-control" id="inputPhone"  required>
+              </div>
+              <div class="mb-3">
+                <label for="inputType" class="form-label">Тип бытовки</label>
+                <input type="tel" class="form-control" id="inputType" value="1" readonly>
+              </div>
+              <div class="mb-3">
+                <label for="inputDist" class="form-label">Расстояние от КАД</label>
+                <input type="tel" class="form-control" id="inputDist" value="2" readonly>
+              </div>
+              <div class="mb-3">
+                <label for="inputRent" class="form-label">Срок аренды</label>
+                <input type="tel" class="form-control" id="inputRent" value="3" readonly>
+              </div>
+              <div class="mb-3">
+                <label for="inputQty" class="form-label">Количество бытовок</label>
+                <input type="tel" class="form-control" id="inputQty" value="4" readonly>
+              </div>
+
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Я согласен на обработку персональных данных</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="task1">
     <div class="banner__top">
       <div class="container">
@@ -117,12 +166,16 @@
         </div>
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 calc__submit">
-            <button class="btn">ЗАКАЗАТЬ</button>
+            <button type="button" class="btn__confirm" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">ЗАКАЗАТЬ</button>
           </div>
         </div>
       </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
   <script src="/js/select.js" defer></script>
 </body>
 
