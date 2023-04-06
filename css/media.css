@@ -35,6 +35,13 @@
 }
 
 @media (max-width:768px) {
+
+  .banner__bottom__right{
+    font-size: 75px;
+    line-height: 40px;
+  }
+
+
   .calc__type__item {
     padding-right: 0px;
   }
@@ -48,6 +55,13 @@
 
 
 @media (max-width:576px) {
+
+  .banner__bottom__right{
+    font-size: 45px;
+    line-height: 25px;
+  }
+
+
   .title__content {
     font-size: 25px;
     line-height: 25px;
